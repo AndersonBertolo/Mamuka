@@ -1,0 +1,148 @@
+  body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+   }
+  
+
+
+
+    :root
+   {
+      --czclaro:#405189;
+      --czescuro: #2C2E3E;
+      --branco: #ffffff;
+      --azulC: #0073EA;
+
+      --font1:'Righteous', cursive;
+      --font2:'Titillium Web', sans-serif;
+   }
+ 
+   main 
+   {
+    /* height: calc(100vh - 80px); */
+ 
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+   }
+
+ head
+   {
+    background-color: var(--azulC);
+   }
+
+   .posicionamento_header 
+   {
+      width: 1700px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 80px;
+   }
+
+   .esquerda {
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--branco );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.esquerda img {  
+    width: 450px;
+
+  }
+
+
+.esquerda h1 {  
+    font-size: 70px;
+    text-transform: uppercase;
+    color: var(--czclaro);
+   }
+
+
+
+.direita {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--czclaro);
+}
+
+.direita p{
+  color: var(--branco);
+padding-left: 240px;
+margin-bottom: 10px;
+}
+
+.direita a{
+  color: var(--branco);
+  padding-left: 160px;
+  padding-top: 15px;
+}
+
+.direita form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.direita h2 {
+  color: white;
+  font-size: 70px;
+  padding: 50px 50px 50px 70px;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.label-input {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+
+  /* height: 50px; */
+}
+
+.label-input label {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+.label-input input {
+  height: 30px;
+  border-radius: 7px;
+  border: none;
+  text-indent: 5px;
+
+  background-color: var(--branco);
+  color: white;
+}
+
+.direita button {
+  background-color: var(--azulC);
+  height: 30px;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.direita button:hover {
+  background-color: var(--czclaro)
+}
